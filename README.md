@@ -1,6 +1,6 @@
 ## Hello Analytics API: PHP quickstart for service accounts
 <br>
-## Step 1: Enable the Analytics API
+<b>Step 1: Enable the Analytics API</b>
 <br><br>
 1 - Open the [Service accounts page](https://console.developers.google.com/iam-admin/serviceaccounts) 👉
 <br><br>
@@ -17,10 +17,10 @@ section. Click <b> + Create key.</b>
 <br><br>
 7 - Click <b>Close </b> on the <b>Private key saved to your computer</b> dialog, then click <b>Done </b> to return to the table of your service accounts.
 <br><br>
-### Step 2: Download Zip / Clone Git<br>
-### Step 3: Setup the sample<br>
+<b>Step 2: Download Zip / Clone Git</b><br>
+<b>Step 3: Setup the sample</b><br>
 <br><br>
-change the key file location if necessary.
+change the key file location if necessary.<br>
 $KEY_FILE_LOCATION = 'example-jason-key.json';
 <br><br>
 Replace with your view ID, for example XXXX.<br>
