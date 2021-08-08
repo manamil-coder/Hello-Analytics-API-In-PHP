@@ -19,13 +19,13 @@ section. Click <b> + Create key.</b>
 <br><br>
 <b>Step 2: Download Zip / Clone Git</b><br>
 <b>Step 3: Setup the sample</b><br>
-<br><br>
+<br>
 change the key file location if necessary.<br>
 $KEY_FILE_LOCATION = 'example-jason-key.json';
 <br>
 Replace with your view ID, for example XXXX.<br>
 $VIEW_ID = "XXXX";
-
+<br>
 <br>
 if you got any error in this repository so contact me. 
 
