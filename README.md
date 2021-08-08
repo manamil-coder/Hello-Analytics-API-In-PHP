@@ -27,4 +27,4 @@ Replace with your view ID, for example XXXX.<br>
 $VIEW_ID = "XXXX";
 <br>
 <br>
-if you got any error in this repository so contact me. 
+if you get any error in this repository so contact me. 
