@@ -4,8 +4,6 @@
 <br><br>
 1 - Open the [Service accounts page](https://console.developers.google.com/iam-admin/serviceaccounts) 👉
 <br><br>
-[Youtube Channel](https://www.youtube.com/channel/UCJ4s7v-DB4e4RldlLDLAfMQ)
-<br><br>
 2- Click <b> + Create Service Account</b> enter a name and description for the service account. You can use the default service account ID, or choose a different, unique one. When done click <b>Create.</b>
 <br><br>
 3 - The <b>Service account permissions (optional)</b> section that follows is not required. Click <b>Continue</b>.
