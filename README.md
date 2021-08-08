@@ -17,8 +17,8 @@ section. Click <b> + Create key.</b>
 <br><br>
 7 - Click <b>Close </b> on the <b>Private key saved to your computer</b> dialog, then click <b>Done </b> to return to the table of your service accounts.
 <br><br>
-# Step 2: Download Zip / Clone Git<br>
-# Step 3: Setup the sample<br>
+### Step 2: Download Zip / Clone Git<br>
+### Step 3: Setup the sample<br>
 <br><br>
 change the key file location if necessary.
 $KEY_FILE_LOCATION = 'example-jason-key.json';
