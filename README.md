@@ -13,7 +13,7 @@ section. Click <b> + Create key.</b>
 <br><br>
 5 - In the side panel that appears, select the format for your key: <b>JSON</b>  is recommended.
 <br><br>
-6 - Click <b>Create.</b>  Your new public/private key pair is generated and downloaded to your machine; it serves as the only copy of this key. For information on how to store it securely, see [Managing service account keys.](https://cloud.google.com/iam/docs/understanding-service-accounts#managing_service_account_keys) 👉
+6 - Click <b>Create.</b>  Your new public/private key pair is generated and downloaded to your machine; it serves as the only copy of this key. For information on how to store it securely, see [Managing service account keys.] (https://cloud.google.com/iam/docs/understanding-service-accounts#managing_service_account_keys) 👉
 <br><br>
 7 - Click <b>Close </b> on the <b>Private key saved to your computer</b> dialog, then click <b>Done </b> to return to the table of your service accounts.
 <br><br>
