@@ -1,16 +1,14 @@
 <?php
 error_reporting(0);
-
-	
-	// Load the Google API PHP Client Library.
- 	require_once 'vendor/autoload.php';
+// Load the Google API PHP Client Library.
+require_once 'vendor/autoload.php';
 	
 function initializeAnalytics(){
 	
 	// Use the developers console and download your service account
 	// credentials in JSON format. Place them in this directory or
 	// change the key file location if necessary.
-	$KEY_FILE_LOCATION = 'google-api/key.json';
+	$KEY_FILE_LOCATION = 'example-jason-key.json';
 	// Create and configure a new client object.
 	$client = new Google_Client();
 	$client->setApplicationName("Hello Analytics Reporting");
@@ -25,7 +23,7 @@ function initializeAnalytics(){
 function getReportPageViews($analytics, $start_date, $end_date) {
 
 	// Replace with your view ID, for example XXXX.
-	$VIEW_ID = "246840739";
+	$VIEW_ID = "xxxx";
 	// Create the DateRange object.
 	$dateRange = new Google_Service_AnalyticsReporting_DateRange();
 	$dateRange->setStartDate($start_date);
@@ -48,8 +46,6 @@ function getReportPageViews($analytics, $start_date, $end_date) {
 	$city = new Google_Service_AnalyticsReporting_Dimension();
 	$city->setName("ga:city");
 	
-	
-	
 	$pageviews = new Google_Service_AnalyticsReporting_Metric();
 	$pageviews->setExpression("ga:pageviews");
 	$pageviews->setAlias("pageviews");
@@ -57,10 +53,7 @@ function getReportPageViews($analytics, $start_date, $end_date) {
 	$sessions = new Google_Service_AnalyticsReporting_Metric();
 	$sessions->setExpression("ga:sessions");
 	$sessions->setAlias("sessions");
-		
-		
-	
-	
+			
 	// Create the ReportRequest object.
 	$request = new Google_Service_AnalyticsReporting_ReportRequest();
 	$request->setViewId($VIEW_ID);
@@ -72,8 +65,6 @@ function getReportPageViews($analytics, $start_date, $end_date) {
 	$body->setReportRequests( array( $request) );
 	return $analytics->reports->batchGet( $body );
 }
-
-
 
 function getLatestDataPagesTitle($data){
 	$analytics =initializeAnalytics();
@@ -106,11 +97,6 @@ function getLatestDataPagesTitle($data){
 	return $output;
 } 
  
-
-
-
-
-
 $reports_data = getLatestDataPagesTitle($data);
 
 $dataInJson = json_encode($reports_data);
@@ -119,9 +105,5 @@ $jsonDecode = json_decode($dataInJson,true);
 echo "<pre>";
 print_r($jsonDecode);
 echo "</pre>";
-
-
-
- 
 
 ?>
