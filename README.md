@@ -1,4 +1,4 @@
-## Hello Analytics API: PHP quickstart for service accounts
+## Hello Analytics API: PHP Quickstart For Service Accounts
 <br>
 <b>Step 1: Enable the Analytics API</b>
 <br><br>
