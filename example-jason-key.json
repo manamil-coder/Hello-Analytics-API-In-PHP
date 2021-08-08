@@ -1,12 +1,3 @@
 {
-  "type": "service_account",
-  "project_id": "madamesaigon",
-  "private_key_id": "4721a594f8f4bf7333458d328b245d9627b3668d",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC8vBe1hKc2TpA0\nBjeP0prhnYav2lc0glrJEcoEs3esMZa9zVoVSnbvMJ/NZ8OieikMEAJ/4qb+ay9l\n2eubWrKH9HRGZxM/HhZ/cdk4JUi4NOkP4lDn16LsphVbdLYzyMqvDZAZwTlaRcF0\nq6i8E7wGb2YxkCSGj/WoW2i1gRWGEW5ALSbXneE/zg4TwskLkc9VSDljAQSjKpQz\nM+DoSEjHGGyAbiDFuSF/vWuazvghkn2omhd/kMDvS4wxcM9Jo+fPRNn8Yi7zUluQ\npt/bPfpZu69uGYjkgwq0BX2oz+htt2iQp2gatT6vVlyU+KBWKAELqRdr0Am9xxb8\nbZL8O4bTAgMBAAECggEAXOQ2xyCDLDd+whxNPHxrvp/JqsPMKAwAovYeeDHctOOz\nTbfEnrYH07Ia9P4dS9rUWRuIH2lux8n5iie3zr7VIBUxJXWWA3rLl+5w+zFemUtx\nal/5ciKwDcmwuVK4WsR4/a+vPP3dPJEYplPWuLr90C0EH2DSmWhBgJt87diav2D7\nyU5HDu26HTED/+6XBp4ZDEUrCnyN4hSc8Uu2U7KzglTuu4q196Kzhl+dZ53Bhopw\nRgndpo7liW14RLZHVyALAwKkL9UoCtaDvi/YZ4cEknwlPcBCxiLQeZ8gvgDevtZ0\nowy0cxkjolpJwW2aW9b7Q7DbCI5scMwqtno8riLgAQKBgQDuivqoRnsUOG8+53En\nHUeAV0zUml5ptDBFzFSbrNy8E/F6Xmbhx4d4BXNNkY/1+cceZyTmr+tmZo1qsjbP\nlF8t5+WL3Rc7iJ5Qfud12in6rXMXQXbdNzXIxLYlevDw5jOpunrGUHJIQEyZQ8Xs\neMkP4XO93fTpQqcTwxroNCePmwKBgQDKi/l5w4K6qAs+h9qX25U7WrHP1Yb7tMyZ\nh5C71wfv1Z/0CK766Sw9eBsabFUH9m38E8o9ohYFAf0Z/NNMztxUCc25Z3j7zD0S\nBCHGQ15QvYw3NPkEAdQwcHS49r8/JpWfZWbbskfckJQUXfcNsc3/LOfmTgjtsYht\n3p3xkn6FKQKBgDj/5J1JGifexFZXn2YlTOyR773tlRnVAKPtC1qXl7cpXM5MuHDC\n6M/5HXAvlCLGqJnPM7Yb2zgA0VHpe8dmQMgLXYJqNh73qjy51j0HAHjx8UphTjHV\n+3gZ6RxToDcwCrBH6wZwOp6hHqyQ0T6MLh8pVCrOWrNSRfIm8MsDi2B5AoGAKPf3\nFjH9l1O2Moe4J086+C54GNnP28nOOJ+7HsN3z4MeP3YiLo5LbIOGt+mBqYKm7H30\nQlMusQSd9Uu2Uarl1fnFquLLDeNZ1vMPAdNOmHY+jkwgsjbMfJ/CfEcsl9FuIjeY\nfoepEWwNB7GZ7yMvz5V9so/GLo3iUpbcy6gd/0ECgYBIEH4xIUYx8COPCMtWGJPy\nrXP/VrA2+aQQoo/e/wR8+jzlnb0nfx+dDOSXt8Z/6FzSbqBHV8/lSmkLKSdpYX5C\nUyEp9/bAbnW9I5ZydUGDpO1IJ2tkXCVew9SkGxuPdr+uEaXqzSWcsMRQpt7u420v\n3bTqyhnl8ExywqIHSrUSiQ==\n-----END PRIVATE KEY-----\n",
-  "client_email": "madamesaigon@madamesaigon.iam.gserviceaccount.com",
-  "client_id": "108879767894283271901",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/madamesaigon%40madamesaigon.iam.gserviceaccount.com"
+  "1": "In the side panel that appears, select the format for your key: JSON is recommended"
 }
